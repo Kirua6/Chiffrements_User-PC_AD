@@ -1,6 +1,6 @@
 # Mise à jour des types de chiffrement Active Directory
 
-Ce dépôt contient des scripts PowerShell conçus pour sécuriser les types de chiffrement sur les comptes d'utilisateurs et d'ordinateurs dans Active Directory. Ces scripts permettent d'éliminer l'utilisation de chiffrements faibles (RC4, DES, Triple DES) au profit de chiffrements plus forts (AES 128, AES 256), c'est notamment utile pour Kerberos.
+Ce dépôt contient des scripts PowerShell conçus pour sécuriser les types de chiffrement sur les comptes d'utilisateurs et d'ordinateurs dans Active Directory. Ces scripts permettent d'éliminer l'utilisation de chiffrements faibles (RC4, DES, Triple DES) au profit de chiffrements plus forts (AES 128, AES 256), ça améliore notamment la sécurité de l'authentification Kerberos en éliminant les vulnérabilités liées aux anciens types de chiffrement.
 
 ## Scripts inclus
 
