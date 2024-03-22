@@ -5,7 +5,7 @@ Ce dépôt contient des scripts PowerShell conçus pour sécuriser les types de 
 ## Scripts inclus
 
 - **Transformation_Chiffrement_Ordinateurs_vfinal.ps1** - Met à jour les types de chiffrement pour les comptes d'ordinateurs dans une OU spécifiée.
-- **Transformation_Chiffrement_Utilisateurs_vfinal.ps1** - Met à jour les types de chiffrement pour les comptes d'utilisateursdans une OU spécifiée.
+- **Transformation_Chiffrement_Utilisateurs_vfinal.ps1** - Met à jour les types de chiffrement pour les comptes d'utilisateurs dans une OU spécifiée.
 - **Transfo_Chiffrement_Auto_Ordi-Users_vfinal.ps1** - Script combiné pour être exécuté au démarrage de l'ordinateur via GPO, appliquant les modifications à tous les comptes dans les OUs spécifiées.
 
 ## Prérequis
