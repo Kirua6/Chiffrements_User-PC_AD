@@ -1,6 +1,6 @@
 ﻿# OU choisis
-$computerOUs = @("OU=Ordinateurs,DC=sirailgroup,DC=local")
-$userOUs = @("OU=Utilisateurs,DC=sirailgroup,DC=local")
+$computerOUs = @("OU=Ordinateurs,DC=test,DC=com")
+$userOUs = @("OU=Utilisateurs,DC=test,DC=com")
 
 if (-not (Get-Module -ListAvailable -Name ActiveDirectory)) {
     Import-Module ActiveDirectory
